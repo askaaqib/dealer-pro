@@ -1,0 +1,309 @@
+.close-btn:before {
+    content: 'x';
+    font-weight: 300;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    float: right;
+    top: -15px;
+    right: -8px;
+    position: relative;
+    background: white;
+    border-radius: 15px;
+    padding: 3px 10px;
+    border: 1px solid grey;
+    cursor: pointer;
+}
+.arfaly-multiple-upload {
+    background: black;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+textarea.void_reason {
+    border: 4px solid grey;
+}
+.upload_buttons {
+    position: absolute;
+    border: 4px solid grey;
+    padding: 10px 5px 0 5px;
+    background: #f7f6f5;
+    z-index: 9999999;
+}
+.show_void_text.text_reason {
+    position: absolute;
+    z-index: 999999;
+}
+.dealertable_header .col {
+    border: 1px solid #9e9e9e6e;
+    padding: 9px 15px;
+    display: inline-block;
+    float: left;
+    width: 11%;
+}
+.ci_form {
+    float: right;
+    margin-bottom: 0px !important
+}
+.dealertable_body .del_col {
+    display: inline-block;
+    padding: 10px 16px;
+}
+.top_padding{
+	padding-top:1em;
+}
+.confirmmsg{
+	font-size: 20px;color: #fdd147;font-weight: 600;
+}
+#mem_form .row.mb-20 {
+    padding: 10px !important;
+}
+.nav.nav-tabs li.active a {
+    background-color: #337ab7;
+    color: white;
+}
+.row.invoice_main {
+    margin: 15px 10px;
+    border: 1px solid #9e9e9e59;
+    padding: 10px;
+    width: 69%;
+}
+.container11 .tab-content {
+    border: 1px solid #9e9e9e47;
+    padding: 0px 35px 0 17px;
+}
+div#submit_files {
+    border: none;
+    padding-top: 15px;
+}
+.btn.btn-default.d-right.margin-clear.invoice_link {
+    color: black;
+}
+a.invoice_link {
+    color: black;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 6px;
+    border: 1px solid #9e9e9e6e;
+    text-align: center;
+}
+.main_container {
+    width: 100%;
+    border: 1px solid #9e9e9e3b;
+    padding: 15px;
+    margin: 10px 10px;
+}
+.download_file {
+    border: 1px solid #bbb9b9;
+    background: #fdd147;
+}
+.show_data{
+	display: block;width: 100%;
+}
+.manufacturer {
+    font-size: 18px;
+    font-weight: 800;
+    font-family: sans-serif;
+	width: 80%;
+    float: left;
+}
+.stage {
+    color: #a7a4a4;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.afu-process-file {
+    float: left;
+}
+.afu-process-file label.upload {
+    background: #28a745;
+    color: #fff;
+}
+.click_here {
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+.stage_row {
+	width:100%;
+	float:left;
+}
+a.void_link {
+    background: #FF0031;
+    color: #fff;
+}
+.user_nicname_show {
+    display: inline-block;
+    width: 200px;
+    float: left;
+    padding-left: 10px;
+    padding: 3px 10px 10px 10px;
+}
+.main_admin_files {
+    display: block;
+    width: 400px;
+    float: left;
+}
+.main_admin_files {
+    display: block;
+    width: 400px;
+    float: left;
+    border: 1px solid #ebebef;
+}
+.uploaded_files_btn {
+    display: inline-block;
+    width: 152px;
+    float: right;
+    margin: 5px;
+}
+span.files_count {
+    float: left;
+    padding: 10px 10px 10px 10px;
+    height: 45px;
+    border-right: 1px solid #ebebef;
+}
+.files_list_main {
+    margin: 0 auto;
+    display: block;
+    clear: both;
+    width: 388px;
+}
+.uploaded_files_btn a {
+    color: white;
+    font-weight: bold;
+}
+
+a.invoice_link.btn.btn-default.d-right.margin-clear {
+    border: none;
+        padding: 20px 0px;
+}
+a.invoice_link img {
+    height: 19px;
+}
+input.btn.btn-submit.reupload_file {
+    padding: 7px 7px;
+    margin: 10px 8px !important;
+    height: 34px;
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+    border: 1px solid #9e9e9e91;
+    border-radius: 4px;
+}
+.row.main_parent {
+    border: 1px solid #9e9e9e3d;
+    padding: 9px 15px;
+}
+.container_dashboard div {
+    margin-top: 0em;
+}
+
+/* Checkbox custom style */
+.void_label {
+    display: inline-block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	line-height: 0.8;
+}
+
+/* Hide the browser's default checkbox */
+.void_label input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eeeeee61;
+    border: 1.4px solid #8a8a8a;
+}
+
+/* On mouse-over, add a grey background color */
+.void_label:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.void_label input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.void_label input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.void_label .checkmark:after {
+    left: 7px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+span.void_check_text {
+    font-size: 15px;
+    margin-top: 0px;
+    display: inline-block;
+    position: relative;
+    top: -2px;
+}
+.btn.btn-submit.void_check_btn {
+    padding: 7px 7px;
+    margin: 10px 0px 10px 8px!important;
+    height: 34px;
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+    border: 1px solid #9e9e9e91;
+    border-radius: 4px;
+}
+textarea#show_void_text {
+    width: 300px;
+    display: block;
+    clear: both;
+}
+div#show_void_text {
+    position: relative;
+    z-index: 99;
+}
+textarea.void_reason {
+    width: 100%;
+}
+span.requiredinput {
+    color: red;
+}
+div#invoices, #upload_files {
+    min-height: 450px !important;
+}
